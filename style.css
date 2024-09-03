@@ -1,0 +1,512 @@
+* {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+.cover {
+  background-image: url("vc.jpg");
+  height: 37.5rem;
+  width: 84.2rem;
+  background-size: cover;
+}
+.nav {
+  height: 6.25rem;
+  width: 83rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 18, 65, 0.8);
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 1.25rem;
+}
+.nav-name {
+  display: flex;
+  width: 25rem;
+  margin-bottom: 1.25rem;
+}
+.nav img {
+  height: 6.25rem;
+  width: 6.25rem;
+}
+.college-name {
+  padding-top: 1.25rem;
+  width: 25rem;
+  height: 2rem;
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding: 1rem;
+}
+li {
+  height: 1.25rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.first-list {
+  height: 2.5rem;
+  margin-left: 8%;
+}
+.sub-menu-link {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  visibility: inherit;
+}
+.nav-link:hover {
+  border: 2px double white;
+  box-shadow: 5px 5px 5px rgba(205, 205, 161, 0.8);
+  border-radius: 0.625rem;
+}
+.home {
+  background-color: rgba(3, 18, 65, 0.8);
+}
+.info {
+  padding-top: 5.625rem;
+  margin-left: 1.25rem;
+}
+h4 {
+  color: #0ce4ed;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  height: 1.875rem;
+}
+.home h1 {
+  color: #feb414;
+  font-size: 2.5625rem;
+  font-weight: 800;
+  height: 3.8125rem;
+  margin-bottom: 5px;
+}
+.tech {
+  font-weight: 100;
+  font-size: 51px;
+  line-height: 56px;
+  margin-bottom: 30px;
+  color: #ffff;
+  height: 112px;
+  width: 530px;
+}
+.info img {
+  height: 100px;
+  width: 300px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 0.625rem;
+}
+.abcollege {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 486px;
+  width: 1200px;
+}
+.about-college {
+  height: 406px;
+  width: 880px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+.about-college h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 56px;
+  margin-left: 20px;
+  height: 60px;
+}
+.about-college img {
+  height: 350px;
+  width: 700px;
+  border: 3px solid #016bbb;
+}
+.card {
+  background-color: #016bbb;
+  height: 205px;
+  width: 360px;
+  padding: 30px;
+}
+.card p {
+  color: #ffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.moreinfo {
+  margin-top: 120px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.moreinfo img {
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.paracollege {
+  height: 400px;
+  height: 310px;
+  width: 780px;
+  margin-left: 60px;
+}
+.paracollege h2 {
+  color: #016bbb;
+  font-size: 40px;
+  font-weight: 300;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.paracollege p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+.icons {
+  padding-left: 30px;
+  padding-right: 50px;
+  height: 170px;
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.boxes {
+  height: 126px;
+  width: 126px;
+  border: 2px solid black;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  display: flex;
+  align-items: end;
+  cursor: pointer;
+}
+.iconimg {
+  height: 28px;
+  width: 32px;
+  padding-bottom: 90px;
+}
+.boxes a {
+  color: #000000;
+  text-decoration: none;
+  height: 30px;
+}
+#box1 {
+  border-color: #feb414;
+}
+#box1:hover {
+  border-style: dashed;
+}
+#box2 {
+  border-color: rgb(0, 76, 255);
+}
+#box2:hover {
+  border-style: dashed;
+}
+#box3 {
+  border-color: #feb414;
+}
+#box3:hover {
+  border-style: dashed;
+}
+#box4 {
+  border-color: rgb(0, 76, 255);
+}
+#box4:hover {
+  border-style: dashed;
+}
+#box5 {
+  border-color: #feb414;
+}
+#box5:hover {
+  border-style: dashed;
+}
+#box6 {
+  border-color: rgb(0, 76, 255);
+}
+#box6:hover {
+  border-style: dashed;
+}
+#box7 {
+  border-color: #feb414;
+}
+#box7:hover {
+  border-style: dashed;
+}
+.number_of {
+  display: flex;
+  height: 200px;
+  margin-top: 70px;
+  width: 1300px;
+  color: #000000;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-evenly;
+}
+.stu {
+  text-align: center;
+}
+.stu h1 {
+  height: 80px;
+  width: 100px;
+  font-size: 60px;
+  color: #000000;
+  font-weight: 300;
+  padding-left: 40px;
+}
+.stu sup {
+  color: #000000;
+}
+.stu p {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 200;
+  height: 25px;
+  width: 180px;
+}
+.news {
+  height: 510px;
+}
+.news h3 {
+  height: 60px;
+  color: #016dbb;
+  font-size: 45px;
+  font-weight: 200;
+  text-align: center;
+}
+.new_news {
+  height: 450px;
+  width: 1345px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news_a {
+  height: 450px;
+  width: 33%;
+  background-color: #016bbb;
+}
+.news_b {
+  height: 450px;
+  width: 33%;
+  background-color: #17214d;
+}
+.news_c {
+  height: 450px;
+  width: 34%;
+  background-color: #016bbb;
+}
+.boxe {
+  height: 25px;
+  width: inherit;
+  font-size: 10px;
+  background-color: #ffff;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#news_a h3 {
+  font-size: 60px;
+  color: rgb(238, 238, 238);
+  text-align: left;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+#news_a h4 {
+  font-size: 30px;
+  color: rgb(238, 238, 238);
+  text-align: left;
+  padding-left: 50px;
+  font-weight: 200;
+}
+#news_a pre {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  font-weight: 200;
+  height: 150px;
+  margin-top: 60px;
+}
+#news_a a {
+  font-size: 20px;
+  color: rgb(248, 160, 8);
+  padding-left: 50px;
+  font-weight: 400;
+  height: 30px;
+  text-decoration: none;
+}
+.college_a {
+  background-color: #feb414;
+  height: 21px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+.college_a a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  width: 520px;
+  text-align: center;
+}
+.college_a span {
+  color: #000000;
+  font-weight: 500;
+  width: 40px;
+}
+.college_a a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+.college_b {
+  background-color: #17214d;
+  height: 144px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+}
+.college_b img {
+  height: 100px;
+  width: 100px;
+}
+.address {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  font-size: 22px;
+  margin-right: 30px;
+}
+.address i {
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+  font-size: 30px;
+  padding-right: 20px;
+  color: #feb414;
+}
+.contact {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  font-size: 22px;
+  margin-right: 40px;
+}
+.contact i {
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+  font-size: 30px;
+  padding-right: 20px;
+  color: #feb414;
+}
+.mail {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  font-size: 22px;
+}
+.mail i {
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+  font-size: 30px;
+  padding-right: 20px;
+  color: #feb414;
+}
+hr {
+  height: 0;
+}
+.college {
+  background-color: #17214d;
+  height: 690px;
+}
+.footer_menu {
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 1320px;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+.menu {
+  height: 450px;
+  width: 350px;
+}
+.div {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+}
+.div a {
+  text-decoration: none;
+  height: 40px;
+  font-weight: 500;
+}
+.div a:hover {
+  color: #feb414;
+}
+h5 {
+  color: #feb414;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+}
+.foot {
+  padding: 12px;
+  background-color: #101735;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.iconss {
+  width: 200px;
+  margin-top: 12px;
+  margin-left: 400px;
+}
+.iconss img {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.iconss img:hover {
+  height: 30px;
+  width: 30px;
+}
