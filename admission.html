@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission</title>
+    <style>
+      div {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2
+      style="
+        background-color: rgb(0, 102, 255);
+        color: white;
+        width: 60%;
+        border-radius: 10px;
+        padding-left: 20px;
+        box-shadow: 10px 10px 10px rgb(16, 96, 123);
+      "
+    >
+      Online Registration Form
+    </h2>
+    <form action="php">
+      <div>
+        <label for="course">Select Course APPLIED *</label>
+        <select name="course" id="course">
+          <option selected="selected" value="0">
+            --Please select course taken--
+          </option>
+          <option value="MBA">MBA</option>
+          <option value="MCA">MCA</option>
+          <option value="BBA">BBA</option>
+          <option value="BCA">BCA</option>
+          <option value="BJMC">BJMC</option>
+          <option value="BFA">BFA</option>
+          <option value="B.Sc. (Computer science)">
+            B.Sc. (Computer science)
+          </option>
+        </select>
+      </div>
+      <div>
+        <label for="name">Student Full Name*</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="name">Father's Name*</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="name">Mother's Name*</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="name">Adresss</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="name">Mobile Number*</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="name">EMAIL</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="course">Gender</label>
+        <select name="gender" id="gender">
+          <option value="MALE">MALE</option>
+          <option value="FEMALE">FEMALE</option>
+        </select>
+      </div>
+      <div>
+        <label for="input">Category*</label>
+        <input type="radio" name="sc" id="sc" />
+        <label for="radio">SC</label>
+        <input type="radio" name="ST" id="ST" />
+        <label for="radio">ST</label>
+        <input type="radio" name="OBC" id="OBC" />
+        <label for="radio">OBC</label>
+        <input type="radio" name="General" id="General" />
+        <label for="radio">General</label>
+      </div>
+      <div>
+        <label for="file">Upload Photo (200 X 200)*</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <button
+        type="submit"
+        style="
+          border: none;
+          background-color: #31ba3a;
+          color: rgb(255, 255, 255);
+          height: 30px;
+          width: 100px;
+          font-size: 18px;
+          border-radius: 10px;
+          margin-top: 30px;
+          margin-left: 100px;
+          box-shadow: 10px 10px 10px rgb(16, 123, 89);
+        "
+      >
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
