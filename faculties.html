@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faculties</title>
+    <style>
+      body {
+        font-family: "lato", sans-serif;
+      }
+      .container {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      h2 {
+        font-size: 26px;
+        margin: 20px 0;
+        text-align: center;
+        small {
+          font-size: 0.5em;
+        }
+      }
+
+      .responsive-table {
+        li {
+          border-radius: 3px;
+          padding: 25px 30px;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 25px;
+        }
+        .table-header {
+          background-color: #95a5a6;
+          font-size: 14px;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+        }
+        .table-row {
+          background-color: #ffffff;
+          box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+        }
+        .col-1 {
+          flex-basis: 10%;
+        }
+        .col-2 {
+          flex-basis: 40%;
+        }
+        .col-3 {
+          flex-basis: 25%;
+        }
+        .col-4 {
+          flex-basis: 25%;
+        }
+
+        @media all and (max-width: 767px) {
+          .table-header {
+            display: none;
+          }
+          .table-row {
+          }
+          li {
+            display: block;
+          }
+          .col {
+            flex-basis: 100%;
+          }
+          .col {
+            display: flex;
+            padding: 10px 0;
+            &:before {
+              color: #6c7a89;
+              padding-right: 10px;
+              content: attr(data-label);
+              flex-basis: 50%;
+              text-align: right;
+            }
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <h2>Director</h2>
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-1">No.</div>
+            <div class="col col-2">Name</div>
+            <div class="col col-3">Designation</div>
+            <div class="col col-4">UG</div>
+            <div class="col col-5">PG</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" data-label="Job Id">1.</div>
+            <div class="col col-2" data-label="Customer Name">
+              Dr. Alok Kumar Gupta
+            </div>
+            <div class="col col-3" data-label="Amount">
+              Director / Professor
+            </div>
+            <div class="col col-4" data-label="Payment Status">B.Com</div>
+            <div class="col col-5" data-label="Payment Status">
+              Ph.D (Mgt), M. Phil (Mgt),MBA, M.Com
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="container">
+        <h2>Faculties of Management Department</h2>
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-1">No.</div>
+            <div class="col col-2">Name</div>
+            <div class="col col-3">Designation</div>
+            <div class="col col-4">UG</div>
+            <div class="col col-5">PG</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">1.</div>
+            <div class="col col-2">Dr. Sandeep Mittal</div>
+            <div class="col col-3">Professor</div>
+            <div class="col col-4">B.Sc</div>
+            <div class="col col-5">
+              Ph.D (Mgt), M. Phil(Mgt), MBA, MMM, PGDBM, LLB, MA(Soc)
+            </div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">2.</div>
+            <div class="col col-2">Dr. Avadh Biharee</div>
+            <div class="col col-3">Asso. Professor</div>
+            <div class="col col-4">B.A</div>
+            <div class="col col-4">
+              Ph.D (Mgt), M. Phil (Mgt), UGC NET, MMM, PGDMSM
+            </div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">3.</div>
+            <div class="col col-2" data-label="Customer Name">
+              Dr. Madhuri Arora
+            </div>
+            <div class="col col-3">Asso. Professor</div>
+            <div class="col col-4">B.Com</div>
+            <div class="col col-4">P.hd(BA), M.Com, MA(E)</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">4.</div>
+            <div class="col col-2">Dr. Sandeep Garg</div>
+            <div class="col col-3">Asso. Professor</div>
+            <div class="col col-4">B.Com</div>
+            <div class="col col-4">Ph.d, MBA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">5.</div>
+            <div class="col col-2">Dr. Vibhuti Sharma</div>
+            <div class="col col-3">Asso. Professor</div>
+            <div class="col col-4">B.C.A</div>
+            <div class="col col-4">M. Phil (Mgt),MBA, Phd.</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">6.</div>
+            <div class="col col-2">Ms. Ritu Mittal</div>
+            <div class="col col-3">Asstt. Professor</div>
+            <div class="col col-4">B.Sc</div>
+            <div class="col col-4">M. Phil (Mgt), M.A (Economic), MBA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">7.</div>
+            <div class="col col-2">Ms. Parul Kumar</div>
+            <div class="col col-3">Asst. Professor</div>
+            <div class="col col-4">B.I.T,B.Com</div>
+            <div class="col col-4">M.com, M.B.A</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">8.</div>
+            <div class="col col-2">Mr. Himanshu Goel</div>
+            <div class="col col-3">Asst. Professor</div>
+            <div class="col col-4">BBA</div>
+            <div class="col col-4">MBA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">9.</div>
+            <div class="col col-2">Mr. Devesh Gupta</div>
+            <div class="col col-3">Asst. Professor</div>
+            <div class="col col-4">B.Com, B.Ed</div>
+            <div class="col col-4">MBA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">10.</div>
+            <div class="col col-2">Ms. Shakti Kaushik</div>
+            <div class="col col-3">Asst. Professor</div>
+            <div class="col col-4">B.Com.</div>
+            <div class="col col-4">MBA</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="container">
+        <h2>Faculties of Computer Department</h2>
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-1">No.</div>
+            <div class="col col-2">Name</div>
+            <div class="col col-3">Designation</div>
+            <div class="col col-4">UG</div>
+            <div class="col col-5">PG</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">1.</div>
+            <div class="col col-2">Dr. Sanjeev Tayal</div>
+            <div class="col col-3">Professor</div>
+            <div class="col col-4">B.Sc.</div>
+            <div class="col col-5">
+              M.Sc. (Math), MIS, M.Phil (CS), MCA, Phd. (CS)
+            </div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">2.</div>
+            <div class="col col-2">Mr. Ganga Sagar</div>
+            <div class="col col-3">Asso. Professor</div>
+            <div class="col col-4">B.Com, DOEACC - A</div>
+            <div class="col col-4">UGC NET, MCA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">3.</div>
+            <div class="col col-2">Mr. Anuj Kumar</div>
+            <div class="col col-3">Asso. Professor</div>
+            <div class="col col-4">BCA</div>
+            <div class="col col-4">NET(CS),M.Tech.(AI),MCA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">4.</div>
+            <div class="col col-2">Mr. Prashant Tomar</div>
+            <div class="col col-3">Asstt. Professor</div>
+            <div class="col col-4">B.Sc.</div>
+            <div class="col col-4">MCA, MCP</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">5.</div>
+            <div class="col col-2">Mr. Jitendra Kumar</div>
+            <div class="col col-3">Asst. Professor</div>
+            <div class="col col-4">BCA</div>
+            <div class="col col-4">MCA</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="container">
+        <h2>Administrative Staff of the College</h2>
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-1">No.</div>
+            <div class="col col-2">Name</div>
+            <div class="col col-3">Designation</div>
+            <div class="col col-4">UG</div>
+            <div class="col col-5">PG</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">1.</div>
+            <div class="col col-2">Mr. Mudassir Husain</div>
+            <div class="col col-3">Finance Controlar</div>
+            <div class="col col-4">B.Com</div>
+            <div class="col col-5">M.Com, MBA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">2.</div>
+            <div class="col col-2">Mr. K. P. Saini</div>
+            <div class="col col-3">Administrative Officer</div>
+            <div class="col col-4">B.sc, BE(Mech.)</div>
+            <div class="col col-4">MBA</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">3.</div>
+            <div class="col col-2">Mr. Anurag Saini</div>
+            <div class="col col-3">Librarian</div>
+            <div class="col col-4">B.Sc., BLIS</div>
+            <div class="col col-4">MILS</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1">4.</div>
+            <div class="col col-2">Mr. Sandeep Garg</div>
+            <div class="col col-3">Registrar</div>
+            <div class="col col-4">B.Com, B.Ed.</div>
+            <div class="col col-4">B.Com, M.Com.</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
